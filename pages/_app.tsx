@@ -14,7 +14,7 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <>Under construction...</>
+  if (!isDevelopment) return <>Under construction...</>
   return (
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
