@@ -1,7 +1,8 @@
 const headerNavLinks = [
-  { href: '/blog', title: 'Blog' },
-  { href: '/tags', title: 'Tags' },
-  { href: 'https://r00ks.io', title: 'About' },
+  { href: '/tags/high-tech', title: 'High-Tech' },
+  { href: '/tags/engineering', title: 'Engineering' },
+  { href: '/tags/domotic', title: 'Domotic' },
+  { href: 'https://davidbonan.io', title: 'About' },
 ]
 
 export default headerNavLinks

@@ -74,5 +74,9 @@ header.isSticky .title {
 }
 
 .mono-type {
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Montserrat Alternates', monospace;
+}
+
+.tracking-tight {
+  letter-spacing: 0.02em;
 }

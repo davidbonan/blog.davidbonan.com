@@ -21,7 +21,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div>
-        <div className="pt-24 pb-8 space-y-2 md:space-y-5">
+        <div className=" pb-8 space-y-2 md:space-y-5">
           <h1 className="mono-type text-2xl leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             LATEST
           </h1>
@@ -31,18 +31,25 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
             return (
-              <li key={slug} className="py-12">
-                <article>
-                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
-                    <dl>
-                      <dt className="sr-only">Published on</dt>
-                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                        <time dateTime={date}>{formatDate(date)}</time>
-                      </dd>
-                    </dl>
-                    <div className="space-y-5 xl:col-span-3">
+              <li key={slug} className="py-6">
+                <article className="transition duration-300 bg-slate-500/10 hover:bg-slate-500/20">
+                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-center">
+                    <div
+                      className="space-y-3 bg-cover bg-center w-full md:h-full"
+                      style={{
+                        backgroundImage: "url('/static/images/avatar.webp')",
+                        paddingTop: '50%',
+                      }}
+                    ></div>
+
+                    <div className="space-y-5 xl:col-span-3 py-4 px-3  ">
                       <div className="space-y-6">
                         <div>
+                          <div className="flex flex-wrap">
+                            {tags.map((tag) => (
+                              <Tag key={tag} text={tag} />
+                            ))}
+                          </div>
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
@@ -51,11 +58,13 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
                               {title}
                             </Link>
                           </h2>
-                          <div className="flex flex-wrap">
-                            {tags.map((tag) => (
-                              <Tag key={tag} text={tag} />
-                            ))}
-                          </div>
+
+                          <dl>
+                            <dt className="sr-only">Published on</dt>
+                            <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                              <time dateTime={date}>{formatDate(date)}</time>
+                            </dd>
+                          </dl>
                         </div>
                         <div className="prose text-gray-500 max-w-none dark:text-gray-400">
                           {summary}

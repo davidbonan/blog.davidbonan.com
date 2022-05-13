@@ -1,16 +1,16 @@
 ---
-name: Austin Rooks
+name: David Bonan
 avatar: /static/images/avatar.webp
 occupation: Software Engineer
 company:
-email: austin@r00ks.io
-twitter: https://twitter.com/austin_rooks
-linkedin: https://www.linkedin.com/in/austinrooks
-github: https://github.com/austionian
+email: contact@davidbonan.com
+github: https://github.com/davidbonan
+twitter: https://twitter.com/david_bonan
+linkedin: https://www.linkedin.com/in/david-bonan-246a14bb/
 ---
 
-Austin Rooks is a software engineer at Chatholic Charities St. Paul & Minneapolis. He works on internal applications critical to bringing non-profit processes more efficiency.
+Hello ! I'm David, a software engineer freelance in France. I like typescript but not at all, I love TDD and BDD pratice in my mission. I like to implement an notion or a full craft concept (SOLID, HEX ARCH etc.).
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+I'm also passionate by domotic, my home in entierly manage by Apple HomeKit with HomeBridge deploy on my inernet box.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Actually I operate at Directskills, an enterprise who make a SASS software to manage interim staff in the most leaders company in France.

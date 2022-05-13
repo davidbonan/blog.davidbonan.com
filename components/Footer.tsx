@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
         <div className="flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400">
           <Link
-            href="https://r00ks.io"
+            href="https://davidbonan.io"
             className="hover:text-primary-600 dark:hover:text-primary-400"
           >
             {siteMetadata.author}
@@ -23,7 +23,7 @@ export default function Footer() {
           <div>{`© ${new Date().getFullYear()}`}</div>
           <div>{` • `}</div>
           <Link
-            href="https://github.com/Austionian/blog.r00ks"
+            href="https://github.com/davidbonan/blog.davidbonan.com"
             className="hover:text-primary-600 dark:hover:text-primary-400"
           >
             Source Code

@@ -33,8 +33,11 @@ class MyDocument extends Document {
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap"
             rel="stylesheet"
           />
         </Head>

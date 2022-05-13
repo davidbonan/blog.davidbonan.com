@@ -1,19 +1,19 @@
 const siteMetadata = {
-  title: 'R00KS/BLOG',
-  author: 'Austin Rooks',
-  headerTitle: 'R00KS/BLOG',
-  description: 'A blog about programming and philosophy. But not the philosophy of programming.',
+  title: 'DAVIDBONAN',
+  author: 'David Bonan',
+  headerTitle: 'DAVIDBONAN',
+  description: 'A blog about my software engineer experience and other...',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://blog.r00ks.io',
-  siteRepo: 'https://github.com/austionian/blog.r00ks',
-  siteLogo: '/static/images/logo.png',
+  siteUrl: 'https://blog.davidbonan.io',
+  siteRepo: 'https://github.com/davidbonan/blog.davidbonan.com',
+  siteLogo: '',
   image: '/static/images/avatar.webp',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'austin@r00ks.io',
-  github: 'https://github.com/austionian',
-  twitter: 'https://twitter.com/austin_rooks',
-  linkedin: 'https://www.linkedin.com/in/austinrooks',
+  email: 'contact@davidbonan.com',
+  github: 'https://github.com/davidbonan',
+  twitter: 'https://twitter.com/david_bonan',
+  linkedin: 'https://www.linkedin.com/in/david-bonan-246a14bb/',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics, umami or googleAnalytics
@@ -25,12 +25,12 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: '',
   },
   comment: {
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: 'giscus', // supported providers: giscus, utterances, disqus
+    provider: '', // supported providers: giscus, utterances, disqus
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/

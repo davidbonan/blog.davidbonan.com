@@ -2,7 +2,7 @@
 title: A Solo Engineer's Dream MVC - Django, htmx, Alpinejs
 date: '2022-02-22'
 tags: ['python', 'django', 'htmx']
-draft: false
+draft: true
 summary: "A match made in heaven for applications created by a single developer, taking full advantage of Django's templating and organization."
 ---
 
